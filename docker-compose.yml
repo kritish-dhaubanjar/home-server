@@ -1,3 +1,4 @@
 include:
   - ./services/unbound/unbound.yml
   - ./services/pi-hole/pi-hole.yml
+  - ./services/redis/redis.yml
