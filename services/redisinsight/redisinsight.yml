@@ -1,0 +1,8 @@
+services:
+  redisinsight:
+    container_name: redisinsight
+    image: 'redis/redisinsight:latest'
+    command: '-v redisinsight:/data'
+    network_mode: host
+    volumes:
+      - ../../data/redisinsight:/data
