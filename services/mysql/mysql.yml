@@ -1,0 +1,10 @@
+services:
+  mysql:
+    container_name: mysql
+    image: mysql:latest
+    network_mode: host
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+    restart: always
+    volumes:
+      - ../../data/mysql:/var/lib/mysql
