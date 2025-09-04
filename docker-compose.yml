@@ -4,3 +4,4 @@ include:
   - ./services/mysql/mysql.yml
   - ./services/redis/redis.yml
   - ./services/dynamodb/dynamodb.yml
+  - ./services/dynamodb-dashboard/dynamodb-dashboard.yml
