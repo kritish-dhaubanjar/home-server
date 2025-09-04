@@ -5,3 +5,4 @@ include:
   - ./services/redis/redis.yml
   - ./services/dynamodb/dynamodb.yml
   - ./services/dynamodb-dashboard/dynamodb-dashboard.yml
+  - ./services/phpmyadmin/phpmyadmin.yml
