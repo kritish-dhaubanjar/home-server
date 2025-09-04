@@ -8,3 +8,4 @@ include:
   - ./services/dynamodb-dashboard/dynamodb-dashboard.yml
   - ./services/phpmyadmin/phpmyadmin.yml
   - ./services/minio/minio.yml
+  - ./services/actual/actual.yml
