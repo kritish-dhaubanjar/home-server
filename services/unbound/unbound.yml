@@ -1,0 +1,9 @@
+services:
+  unbound:
+    image: alpinelinux/unbound:latest
+    container_name: unbound
+    network_mode: host
+    volumes:
+      - ./unbound/unbound.conf:/etc/unbound/unbound.conf
+      - ./unbound/root.hints:/etc/unbound/root.hints
+    restart: unless-stopped
