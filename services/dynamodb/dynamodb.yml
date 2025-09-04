@@ -1,0 +1,8 @@
+services:
+  dynamodb:
+    container_name: dynamodb
+    image: amazon/dynamodb-local
+    network_mode: host
+    command: "-jar DynamoDBLocal.jar -sharedDb -dbPath /home/dynamodblocal/data"
+    volumes:
+      - ../../data/dynamodb:/home/dynamodblocal/data

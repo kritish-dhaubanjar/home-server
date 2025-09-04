@@ -3,3 +3,4 @@ include:
   - ./services/pi-hole/pi-hole.yml
   - ./services/mysql/mysql.yml
   - ./services/redis/redis.yml
+  - ./services/dynamodb/dynamodb.yml
