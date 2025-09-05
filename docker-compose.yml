@@ -9,3 +9,4 @@ include:
   - ./services/phpmyadmin/phpmyadmin.yml
   - ./services/minio/minio.yml
   - ./services/actual/actual.yml
+  - ./services/nextcloud/nextcloud.yml
