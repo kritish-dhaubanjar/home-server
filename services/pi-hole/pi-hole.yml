@@ -4,9 +4,9 @@ services:
     image: pihole/pihole:latest
     environment:
       TZ: "Asia/Kathmandu"
-      FTLCONF_dns_listeningMode: 'all'
-      FTLCONF_dns_upstreams: 'unbound#5335'
-      FTLCONF_webserver_port: '80,443s'
+      FTLCONF_dns_listeningMode: "all"
+      FTLCONF_dns_upstreams: "unbound#5335"
+      FTLCONF_webserver_port: "80,443s"
       FTLCONF_webserver_api_password: "admin"
     volumes:
       - ../../data/pihole:/etc/pihole

@@ -1,8 +1,8 @@
 services:
   redisinsight:
     container_name: redisinsight
-    image: 'redis/redisinsight:latest'
-    command: '-v redisinsight:/data'
+    image: "redis/redisinsight:latest"
+    command: "-v redisinsight:/data"
     volumes:
       - ../../data/redisinsight:/data
     environment:
