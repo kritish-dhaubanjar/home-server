@@ -2,10 +2,11 @@ services:
   phpmyadmin:
     image: phpmyadmin
     container_name: phpmyadmin
-    network_mode: host
     environment:
-      PMA_HOST: 127.0.0.1
+      PMA_HOST: mysql
       PMA_PORT: 3306
       PMA_ARBITRARY: 0
       APACHE_PORT: 8081
     restart: always
+    ports:
+      - 8081:8081
