@@ -3,6 +3,7 @@ services:
     container_name: dynamodb
     image: amazon/dynamodb-local
     command: "-jar DynamoDBLocal.jar -sharedDb -dbPath /home/dynamodblocal/data"
+    restart: always
     volumes:
       - ../../data/dynamodb:/home/dynamodblocal/data
     ports:

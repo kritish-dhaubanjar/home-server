@@ -8,5 +8,6 @@ services:
       AWS_ACCESS_KEY_ID: fakeMyKeyId
       AWS_SESSION_TOKEN: fakeSessionToken
       AWS_SECRET_ACCESS_KEY: fakeSecretAccessKey
+    restart: always
     ports:
       - 4567:4567

@@ -5,6 +5,7 @@ services:
     command: "-v redisinsight:/data"
     volumes:
       - ../../data/redisinsight:/data
+    restart: always
     environment:
       RI_REDIS_HOST: redis
     ports:
