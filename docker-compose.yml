@@ -11,4 +11,4 @@ include:
   - ./services/actual/actual.yml
   - ./services/nextcloud/nextcloud.yml
   - ./services/portainer/portainer.yml
-
+  - ./services/n8n/n8n.yml
